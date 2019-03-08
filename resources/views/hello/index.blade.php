@@ -2,15 +2,17 @@
 
 @section('title','屋宜のポートフォリオ')
 
+<div class="list1">
 @section('one','home')
 @section('two',"profile")
 @section('three','work')
 @section('four','contact')
+</div>
 
 @section('mytext')
-<p>はじめまして。ヤギカズマと申します。
-医療業界で激務に追われるうちに必要なのはICT化だと思い立ち
-プログラムの世界に飛び込みました。
+<p>はじめまして。ヤギカズマと申します。</br>
+医療業界で激務に追われるうちに必要なのはICT化だと思い立ち</br>
+プログラムの世界に飛び込みました。</br>
 未経験からの挑戦で現在、日々成長中です。</p>
 @endsection
 
