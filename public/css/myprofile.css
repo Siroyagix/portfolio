@@ -1,3 +1,6 @@
+html,body{
+    margin:0px;
+}
 h1 {
     font-size:60px;
     text-align: center;
@@ -5,11 +8,15 @@ h1 {
 }
 
 .title{
+    font-size:80px;
+    font-weight: 1000;
     text-align:center;
-    
+    color:rgb(245, 127, 48);
+    line-height: 400px;    
 }
+
 .ulset{
-    width:800px;
+    width:750px;
     margin-right:auto;
     margin-left:auto;
 }
@@ -30,16 +37,14 @@ h1 {
     clear:both;
 }
 
-
-.section1 {
-    background-image:" ";
-    background-size: cover;
+.titleback{
+    background: url(../storage/topimage.jpg) no-repeat center center;
     background-position: center;
-    box-sizing: border-box;
-    padding:190px 0px;
+    width:100%;
+    height:600px;
+    margin:0px;
+    padding:0px;
 }
-
-
 .pull-left{
     float:left;
 }
@@ -57,6 +62,7 @@ h1 {
 }
 
 a{
+    color:#fff;
     text-align: left;
 }
 
@@ -64,7 +70,8 @@ a{
     text-align: center;
     font-size:25px;
     list-style:none;
-}
+    padding:50px;
+    }
 
 p{
     text-align:center;
@@ -80,4 +87,11 @@ p{
     margin:50px;
     width:100px;
     height:100px;
+}
+
+.under{
+    width:100%;
+    height:500px;
+    background-color:#000000;
+    color:#fff;
 }

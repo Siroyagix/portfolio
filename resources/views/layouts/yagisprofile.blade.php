@@ -4,9 +4,9 @@
         <title>@yield('title')</title>
     </head>
     <body>
+        <div class="titleback">
      <a id="@yield('one')"></a>
-        <h1 class="title" style="background-image:/storage/topimage.jgp">@yield('title')</h1>
-        <div class="section1">
+        <p class="title">@yield('title')</p>
         <ul class="clearfix ulset">
             <li class="list1"><a href="#@yield('one')">@yield('one')</a></li>
             <li class="list1"><a href="#@yield('two')">@yield('two')</a></li>
@@ -26,7 +26,7 @@
                 <td>
                     <h2>自己紹介</h2>
                      <p>@yield('mytext')</p>
-                    <h2>よく使用する技術</h2>
+                    <h2>@yield('experience')</h2>
                     <table>
                         <tr>
                             <td>
@@ -47,7 +47,6 @@
 
         <a id="@yield('three')"></a>
         <h1>@yield('three')</h1>
-        <div class="section4">
         <table class="table">
             <tr>
                 <th>@yield('work1')</th><th>@yield('work2')</th>
@@ -57,14 +56,15 @@
                 <td><img src="/storage/library.png" alt="library" class="workicons"></td>
             </tr>
         </table>                
-        </div>
 
         <a id="@yield('four')"></a>
+        <div class="under">
         <h1>@yield('four')</h1>
         <ul class="list2">
             <li>@yield('mail')</li>
             <li>@yield('github')</li>
         </ul>
+    </div>
     </body>
 </html>
 

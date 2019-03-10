@@ -1,6 +1,8 @@
 @extends('layouts.yagisprofile')
 
-@section('title','屋宜のポートフォリオ')
+@section('title')
+Yagi's Profile
+@endsection
 
 
 @section('one','home')
@@ -16,7 +18,7 @@
 未経験からの挑戦で現在、日々成長中です。</p>
 @endsection
 
-
+@section('experience','経験したことのある技術')
 @section('work1','バイタルチェック')
 @section('work2','書評ブログ')
 
