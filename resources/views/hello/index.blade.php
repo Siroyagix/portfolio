@@ -2,12 +2,12 @@
 
 @section('title','屋宜のポートフォリオ')
 
-<div class="list1">
+
 @section('one','home')
 @section('two',"profile")
 @section('three','work')
 @section('four','contact')
-</div>
+
 
 @section('mytext')
 <p>はじめまして。ヤギカズマと申します。</br>
@@ -16,7 +16,7 @@
 未経験からの挑戦で現在、日々成長中です。</p>
 @endsection
 
-@section('worktext')
+@section('workstext')
 <p>いままでさわった経験のある言語は「ｐｈｐ」「ｈｔｍｌ」です。
 </p>
 @endsection
