@@ -11,6 +11,7 @@ Yagi's Profile
 @section('four','contact')
 
 
+@section('two-text','自己紹介')
 @section('mytext')
 <p style="text-align:left">はじめまして。ヤギカズマと申します。</br>
 医療業界で激務に追われるうちに必要なのはICT化だと思い立ち</br>

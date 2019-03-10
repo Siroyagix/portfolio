@@ -7,6 +7,12 @@ h1 {
     margin:100px;
 }
 
+h2{
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+}
+
 .title{
     font-size:80px;
     font-weight: 1000;
@@ -47,19 +53,16 @@ h1 {
 }
 .pull-left{
     float:left;
+    width:280;
+    height:280;
 }
 
-.facemodel{
-    margin:20px;
-    width:150px;
-    height: 150px;
-}
 
 .table{
     box-align: center;
     margin-right:auto;
     margin-left: auto;
-}
+   }
 
 a{
     color:#fff;

@@ -24,7 +24,7 @@
                    <img src="/storage/facemodel.png" alt="get picture" class="pull-left" class="facemodel">
                 </td>
                 <td>
-                    <h2>自己紹介</h2>
+                    <h2>@yield('two-text')</h2>
                      <p>@yield('mytext')</p>
                     <h2>@yield('experience')</h2>
                     <table>
@@ -58,7 +58,7 @@
         </table>                
 
         <a id="@yield('four')"></a>
-        <div class="under">
+        <div class="under">    
         <h1>@yield('four')</h1>
         <ul class="list2">
             <li>@yield('mail')</li>
