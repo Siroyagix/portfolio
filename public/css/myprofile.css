@@ -1,11 +1,15 @@
-.body{
-    background-color:#fff;
-    color:#444;
+h1 {
+    font-size:60px;
     text-align: center;
+    margin:100px;
+}
 
+.title{
+    text-align:center;
+    
 }
 .ulset{
-    width:600px;
+    width:800px;
     margin-right:auto;
     margin-left:auto;
 }
@@ -16,20 +20,14 @@
     list-style: none;
     margin:20px;
     padding:20px;
+    font-size:30px;
 }
 
-.list2{
-    list-style: none;
-}
+
 .clearfix::after{
     content:"";
     display:block;
     clear:both;
-}
-
-.h1 {
-    font-size:100px;
-    text-align: center;
 }
 
 
@@ -41,10 +39,45 @@
     padding:190px 0px;
 }
 
-.section2 {
-   float: left;
+
+.pull-left{
+    float:left;
 }
 
-.seciton3{
-    float:left;
+.facemodel{
+    margin:20px;
+    width:150px;
+    height: 150px;
+}
+
+.table{
+    box-align: center;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+a{
+    text-align: left;
+}
+
+.list2{
+    text-align: center;
+    font-size:25px;
+    list-style:none;
+}
+
+p{
+    text-align:center;
+}
+
+.icons{
+    margin:5px;
+    width:50px;
+    height:50px;
+}
+
+.workicons{
+    margin:50px;
+    width:100px;
+    height:100px;
 }

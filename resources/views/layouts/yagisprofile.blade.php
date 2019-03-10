@@ -4,9 +4,8 @@
         <title>@yield('title')</title>
     </head>
     <body>
-            <div class="body">
-        <a id="@yield('one')"></a>
-        <h1>@yield('title')</h1>
+     <a id="@yield('one')"></a>
+        <h1 class="title" style="background-image:/storage/topimage.jgp">@yield('title')</h1>
         <div class="section1">
         <ul class="clearfix ulset">
             <li class="list1"><a href="#@yield('one')">@yield('one')</a></li>
@@ -18,29 +17,54 @@
         
         <a id="@yield('two')"></a>
         <h1>@yield('two')</h1>
-        <div class="seciton2">
-        <img src="/storage/facemodel.png" alt="get picture">
-        </div>
-        <h1>自己紹介</h1>
-        <div class="section3">
-        @yield('mytext')
-        </div>
+        
+        <table class="table">
+            <tr>
+                <td>
+                   <img src="/storage/facemodel.png" alt="get picture" class="pull-left" class="facemodel">
+                </td>
+                <td>
+                    <h2>自己紹介</h2>
+                     <p>@yield('mytext')</p>
+                    <h2>よく使用する技術</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="/storage/mysql.png" alt="mysql" class="icons">
+                            </td>
+                            <td>
+                                <img src="/storage/PHP.png" alt="php" class="icons">
+                            </td>
+                            <td>
+                                <img src="/storage/laravel.jpg" alt="laravel" class="icons">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+
         <a id="@yield('three')"></a>
         <h1>@yield('three')</h1>
         <div class="section4">
-        <p>@yield('workstext')</p>
-        <ul>
-            <li class="list2">@yield('work1')</li>
-            <li class="list2">@yield('work2')</li>
-        </ul>
+        <table class="table">
+            <tr>
+                <th>@yield('work1')</th><th>@yield('work2')</th>
+            </tr>
+            <tr>
+                <td><img src="/storage/scope.png" alt="scope" class="workicons"></td>
+                <td><img src="/storage/library.png" alt="library" class="workicons"></td>
+            </tr>
+        </table>                
         </div>
+
         <a id="@yield('four')"></a>
         <h1>@yield('four')</h1>
-        <div class="seciton5">
-        <p>@yield('mail')</br>
-            @yield('github')</p>
-        </div>
-    </div>
+        <ul class="list2">
+            <li>@yield('mail')</li>
+            <li>@yield('github')</li>
+        </ul>
     </body>
 </html>
 
