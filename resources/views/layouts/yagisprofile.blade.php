@@ -21,7 +21,7 @@
         <table class="table">
             <tr>
                 <td>
-                   <img src="/storage/facemodel.png" alt="get picture" class="pull-left" class="facemodel">
+                   <img src="/images/facemodel.png" alt="get picture" class="pull-left" class="facemodel">
                 </td>
                 <td>
                     <h2>@yield('two-text')</h2>
@@ -30,13 +30,13 @@
                     <table>
                         <tr>
                             <td>
-                                <img src="/storage/mysql.png" alt="mysql" class="icons">
+                                <img src="/images/mysql.png" alt="mysql" class="icons">
                             </td>
                             <td>
-                                <img src="/storage/PHP.png" alt="php" class="icons">
+                                <img src="/images/PHP.png" alt="php" class="icons">
                             </td>
                             <td>
-                                <img src="/storage/laravel.jpg" alt="laravel" class="icons">
+                                <img src="/images/laravel.jpg" alt="laravel" class="icons">
                             </td>
                         </tr>
                     </table>
@@ -52,8 +52,8 @@
                 <th>@yield('work1')</th><th>@yield('work2')</th>
             </tr>
             <tr>
-                <td><img src="/storage/scope.png" alt="scope" class="workicons"></td>
-                <td><img src="/storage/library.png" alt="library" class="workicons"></td>
+                <td><img src="/images/scope.png" alt="scope" class="workicons"></td>
+                <td><img src="/images/library.png" alt="library" class="workicons"></td>
             </tr>
         </table>                
 
