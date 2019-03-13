@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HelloController extends Controller
+class HomeController extends Controller
 {
     public function index(){
-        return view('hello.index');
+        return view('home.index');
     }
 }
