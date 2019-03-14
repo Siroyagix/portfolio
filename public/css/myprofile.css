@@ -44,7 +44,7 @@ h2{
 }
 
 .titleback{
-    background: url(../images/topimage.jpg) no-repeat center center;
+    background: url(../images/topimage.jpg);
     background-position: center;
     width:100%;
     height:600px;

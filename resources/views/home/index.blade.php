@@ -8,7 +8,7 @@
      <a id="home"></a>
         <p class="title">"Yagi's Profile"</p>
         <ul class="clearfix ulset">
-            <li class="list1"><a href="home">@yield('one')</a></li>
+            <li class="list1"><a href="#home">home</a></li>
             <li class="list1"><a href="#Profile">Profile</a></li>
             <li class="list1"><a href="#works">works</a></li>
             <li class="list1"><a href="#Contact">Contact</a></li>
