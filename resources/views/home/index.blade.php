@@ -1,10 +1,8 @@
 @extends('layouts.app')
 
-@section('title',"Yagi's Profile")
-
 @section('content')
 {{-- ヘッダーナビ部分 --}}
-        <div class="titleback">
+    <div class="titleback">
      <a id="home"></a>
         <p class="title">"Yagi's Profile"</p>
         <ul class="clearfix ulset">
@@ -44,6 +42,18 @@
                             <td>
                                 <img src="/images/laravel.jpg" alt="laravel" class="icons">
                             </td>
+                            <td>
+                                <img src="/images/aws.jpg" alt="aws" class="icons">
+                            </td>
+                            <td>
+                                <img src="/images/git.png" alt="git" class="icons">
+                            </td>
+                            <td>
+                                <img src="/images/apache.jpg" alt="apache" class="icons">
+                            </td>
+                            <td>
+                                <img src="/images/Linux.jpg" alt="Linux" class="icons">
+                            </td>
                         </tr>
                     </table>
                 </td>
@@ -57,14 +67,12 @@
         <table class="table">
             <tr>
                 <th>バイタルチェック</th>
-                <th>書評ブログ</th>
             </tr>
             <tr>
                 <td>
-                    <img src="/images/scope.png" alt="scope" class="workicons">
-                </td>
-                <td>
-                    <img src="/images/library.png" alt="library" class="workicons">
+                    <a href="https://www.vitalcheck.site" target="_blank">
+                        <img src="/images/scope.png" alt="scope" class="workicons">
+                    </a>
                 </td>
             </tr>
         </table> 
@@ -76,12 +84,12 @@
         <h1>Contact</h1>
         <ul class="list2">
             <li>
-                <a href="mailto:yagikaz@gmail.com">
-                        yagikaz@gmail.com
+                <a href="mailto:im.aiming.mrt5151104@gmail.com">
+                        im.aiming.mrt5151104@gmail.com
                 </a>
             </li>
             <li>
-                <a href="https://github-myprofile.com">https://github-myprofile.com</a>
+                <a href="https://github.com/Siroyagix" target="_blank">https://github.com/Siroyagix</a>
             </li>
         </ul>
     </div>
