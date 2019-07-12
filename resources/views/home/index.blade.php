@@ -66,18 +66,20 @@
        {{-- ワークス --}}
         <a id="works"></a>
         <h1>Works</h1>
-        <table class="table">
-            <tr>
-                <th>バイタルチェック</th>
-            </tr>
+        <table class="apptable">
+            <tr><th>WEBアプリ</th><th>機能の説明</th></tr>
             <tr>
                 <td>
-                    <a href="https://www.vitalcheck.site" target="_blank">
-                        <img src="/images/scope.png" alt="scope" class="workicons">
-                    </a>
+                    <a href="https://www.vitalcheck.site" target="_blank"><img src="/images/scope.png" alt="scope" class="appicons"></a>
+                </td>
+                <td>
+                    <p>
+                        自分の体温や脈拍などのフィジカル基礎データを記録閲覧できるアプリ<br>
+                        ログイン機能・CRUD機能・AWSにてEC2とRDSを使用
+                    </p>
                 </td>
             </tr>
-        </table> 
+          </table>
         {{-- /ワークス --}}
 
         {{-- コンタクト --}}
